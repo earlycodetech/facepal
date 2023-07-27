@@ -34,6 +34,7 @@ export default function Home() {
                 <p className="text-2xl text-white">New to facepal? <Link href="#" className="underline">create account</Link></p>
             </div>
         </div>
+
       </div>
     </>
   )
