@@ -11,9 +11,10 @@ export default function Home() {
             <div className="w-full sm:min-h-[480px] bg-indigo-300/20 py-6 sm:py-10 px-[40px] rounded-lg">
                 <h1 className="text-indigo-800 text-4xl sm:text-6xl font-mono font-bold">facepal</h1>
                 {/* <h2 className="text-2xl sm:text-3xl mt-4">The Coolest way to connect with friends and hold money</h2> */}
-                <Text size={40} colour={`green`}/>
-                <Text size={20} colour={`orange`}/>
-                <Text size={16} colour={`black`}/>
+                <Text size={40} colour={`green`}>
+                  <span className='text-6xl text-red-500'>This is us</span>
+                  <blockquote>Another quote</blockquote>
+                </Text>
             </div>
             <div className="w-full sm:min-h-[480px] flex flex-col gap-5">
                 <form className="flex flex-col gap-3">
