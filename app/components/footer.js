@@ -1,6 +1,6 @@
 import Link  from 'next/link';
 
-export const Footer= () => {
+export const Footer = () => {
     return (
         <footer className="w-full flex flex-col sm:flex-row justify-around items-center">
             <small className="text-gray-800">&copy; 2023 facepal</small>
